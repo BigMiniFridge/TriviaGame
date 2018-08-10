@@ -1,19 +1,32 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
 
+html { 
+    background: url(../images/toonami.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
 body{
     font-size: 20px;
     font-family: 'Work Sans', sans-serif;
-    color: #333;
+    color: rgb(128, 13, 223);
   font-weight: 300;
   text-align: center;
-  background-color: #f8f6f0;
+  text-shadow:
+  -1px -1px 0 rgb(3, 243, 183),
+  1px -1px 0 rgb(3, 243, 183),
+  -1px 1px 0 rgb(3, 243, 183),
+  1px 1px 0 rgb(3, 243, 183);
+  padding: 100px;
 }
 h1{
   font-weight: 300;
   margin: 0px;
   padding: 10px;
   font-size: 20px;
-  background-color: #444;
+  background-color: rgb(128, 13, 223);
   color: #fff;
 }
 .question{
@@ -41,12 +54,8 @@ button{
     margin-bottom: 20px;
 }
 button:hover{
-    background-color: #38a;
+    background-color: rgb(128, 13, 223);
 }
-
-
-
-
 
 .slide{
   position: absolute;
@@ -69,29 +78,3 @@ button:hover{
 
 
 
-/* .slide {
-
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: 1;
-    opacity: 0;
-    transition: opacity 0.5s;
-
-}
-
-.active-slide{
-
-    opacity: 1;
-    z-index: 2;
-
-}
-
-.quiz-container {
-
-    position: relative;
-    height: 200px;
-    margin-top: 40px;
-
-} */
